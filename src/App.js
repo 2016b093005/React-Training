@@ -5,6 +5,7 @@ import Clock from './Clock';
 import './App.css';
 import Employee from './Employee';
 import {Button, Progress} from 'reactstrap';
+import Post from './Post';
 
 
 class App extends Component {	
@@ -31,6 +32,7 @@ class App extends Component {
 
       return (
       <div className='App'>
+          <Post></Post>
           <Clock></Clock>
           <form onSUbmit={this.onSubmitHandler}>
 
